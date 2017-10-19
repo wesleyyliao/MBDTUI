@@ -1,0 +1,22 @@
+{
+  "AD": {
+    // LDAP information
+    "url": "ldap://ad.domain.com",
+    "baseDN": "dc=ad, dc=domain,dc=com",
+
+    // The username and password specified here are what are used for user and group lookup operations.
+    "username": "datadash@ad.domain.com",
+    "password": "",
+
+    // Specify what ActiveDirectory groups correspond to what DataDash user groups.
+    "ADMIN_GROUP": "data-dash-admin",
+    "DEVELOPER_GROUP": "data-dash-dev",
+    "MANAGER_GROUP": "data-dash-manager"
+  },
+  "MongoDB": {
+
+  },
+  "PostgreSQL": {
+
+  }
+}
